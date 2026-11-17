@@ -1,3 +1,5 @@
+// https://www.youtube.com/*
+
 const watchElements = ['#actions', '#subscribe-button', '.ytp-cards-teaser', 'ytd-feed-nudge-renderer'];
 const observer = new MutationObserver(() => {
   const elements = document.querySelectorAll(watchElements.join(','));
